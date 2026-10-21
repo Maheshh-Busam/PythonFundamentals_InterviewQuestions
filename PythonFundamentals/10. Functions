@@ -1,0 +1,23 @@
+- What is a function in Python?
+- Why do we use functions?
+- How do you define and call a function?
+- What is the difference between parameters and arguments?
+- What is the difference between return and print()?
+- What happens if a function has no return statement?
+- What are positional arguments?
+- What are keyword arguments?
+- What are default arguments?
+- What are variable-length arguments (*args and **kwargs)?
+- What is the difference between *args and **kwargs?
+- What is a lambda function?
+- What is recursion?
+- What is the difference between local and global scope?
+- What is the purpose of the global keyword?
+- What is the purpose of the nonlocal keyword?
+- What is the LEGB rule in Python?
+- What is a docstring?
+- Can a Python function return multiple values?
+- What are first-class functions in Python?
+- What is a higher-order function?
+- What are mutable default arguments, and why can they cause problems?
+- What is the difference between a function and a method?

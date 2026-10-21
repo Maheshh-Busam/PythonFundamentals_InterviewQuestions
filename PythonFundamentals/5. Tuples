@@ -1,0 +1,10 @@
+- What is a tuple in Python?
+- How is a tuple different from a list?
+- Are tuples mutable or immutable?
+- How do you create a tuple with a single element?
+- What is tuple packing and unpacking?
+- Can a tuple contain mutable objects?
+- What is the difference between a tuple and a list in terms of memory and performance?
+- What are the advantages of using tuples?
+- How do you swap two variables using tuple unpacking?
+- Can tuples be used as dictionary keys? Under what conditions?

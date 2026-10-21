@@ -1,0 +1,18 @@
+- What is an exception in Python?
+- What is the difference between a syntax error and an exception?
+- What is exception handling?
+- How do try and except work?
+- What is the purpose of else in exception handling?
+- What is the purpose of finally?
+- What is the difference between except Exception and a specific exception handler?
+- What is the difference between raise and assert?
+- How do you raise a custom exception?
+- How do you define a custom exception class?
+- What is the difference between TypeError, ValueError, IndexError, and KeyError?
+- What happens if an exception is not handled?
+- Can one try block have multiple except blocks?
+- Can you use a try block without an except block?
+- Why should you avoid using a bare except?
+- How do you handle exceptions while reading a file?
+- What is exception propagation?
+- Can the finally block execute when a function returns from inside a try block?

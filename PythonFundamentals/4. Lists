@@ -1,0 +1,20 @@
+- What is a list in Python?
+- Are lists mutable or immutable?
+- How do you create an empty list?
+- What is the difference between append() and extend()?
+- What is the difference between insert() and append()?
+- What is the difference between remove(), pop(), and del?
+- What is the difference between sort() and sorted()?
+- What is the difference between reverse() and reversed()?
+- How do you access and update list elements?
+- What is list slicing?
+- What is a nested list?
+- How do you copy a list?
+- What is the difference between a shallow copy and a deep copy?
+- What is the difference between list1 = list2 and list1 = list2.copy()?
+- How do you remove duplicates from a list?
+- How do you find the largest and smallest elements in a list?
+- How do you find the second-largest element in a list?
+- How do you merge two lists?
+- How do you find common elements between two lists?
+- How do you flatten a nested list?

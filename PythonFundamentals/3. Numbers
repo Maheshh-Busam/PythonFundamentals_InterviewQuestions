@@ -1,0 +1,13 @@
+- What are the numeric data types in Python?
+- What is the difference between int, float, and complex?
+- What is the difference between / and //?
+- What is the difference between % and //?
+- What is operator precedence in Python?
+- What is the difference between round() and int()?
+- What do abs(), pow(), and divmod() do?
+- What is the difference between 10 == 10.0 and type(10) == type(10.0)?
+- How do you check whether a number is even or odd?
+- How do you check whether a number is prime?
+- How do you calculate the factorial of a number?
+- How do you reverse an integer?
+- How do you check whether a number is an Armstrong number?

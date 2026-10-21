@@ -1,0 +1,18 @@
+- What is a dictionary in Python?
+- What are keys and values in a dictionary?
+- Are dictionaries mutable?
+- Are dictionary keys required to be unique?
+- What types of objects can be used as dictionary keys?
+- What is the difference between dict[key] and dict.get(key)?
+- What is the difference between keys(), values(), and items()?
+- How do you add, update, and delete dictionary elements?
+- What is the difference between update() and the union operator | for dictionaries?
+- How do you merge two dictionaries?
+- How do you iterate through a dictionary?
+- How do you check whether a key exists in a dictionary?
+- What is a nested dictionary?
+- What is dictionary unpacking?
+- What is the difference between pop() and popitem()?
+- How do you count the frequency of elements using a dictionary?
+- What happens when two dictionary keys have the same value?
+- What is the difference between a dictionary and a set?

@@ -1,0 +1,15 @@
+- What is the difference between for and while loops?
+- How does a for loop work in Python?
+- How does a while loop work in Python?
+- What is the purpose of the range() function?
+- What is the difference between range(5) and range(1, 5)?
+- What is the difference between break, continue, and pass?
+- What is a nested loop?
+- What is an infinite loop, and how can you avoid one?
+- What does the else block in a loop do?
+- How does enumerate() work?
+- How does zip() work?
+- What is the difference between iterating over a list directly and iterating using indexes?
+- How do you iterate through a dictionary using a loop?
+- How do you iterate through two lists simultaneously?
+- What is the difference between an iterable and an iterator?

@@ -1,0 +1,14 @@
+- What is a variable in Python?
+- Do we need to declare the variable type explicitly in Python?
+- What are the built-in data types in Python?
+- What is dynamic typing in Python?
+- What is the difference between mutable and immutable data types?
+- What is the difference between type() and isinstance()?
+- What is the difference between == and is?
+- What are the rules for naming variables in Python?
+- What is multiple assignment in Python?
+- What is type casting in Python?
+- What is the difference between implicit and explicit type conversion?
+- What is the difference between None, 0, and False?
+- What are local and global variables?
+- What is variable scope in Python?

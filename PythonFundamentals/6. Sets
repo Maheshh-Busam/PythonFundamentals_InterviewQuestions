@@ -1,0 +1,12 @@
+- What is a set in Python?
+- Why does a set not allow duplicate elements?
+- Are sets ordered or unordered?
+- Can a set contain mutable objects?
+- What is the difference between a set and a list?
+- What is the difference between a set and a frozenset?
+- What are union, intersection, difference, and symmetric difference?
+- What is the difference between remove() and discard() in a set?
+- What is the difference between add() and update()?
+- How do you remove duplicates from a list using a set?
+- How do you check whether one set is a subset of another?
+- Can a set contain another set?

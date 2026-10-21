@@ -1,0 +1,38 @@
+
+def add(a, b=5):
+    return a + b
+
+print(add(10))
+print(add(10, 20))
+
+---------------------
+
+
+def test():
+    x = 10
+
+print(test())
+
+--------------------
+
+def add_item(items=[]):
+    items.append(1)
+    return items
+
+print(add_item())
+print(add_item())
+print(add_item())
+
+--------------------
+
+x = 10
+
+def change():
+    x = 20
+
+change()
+
+print(x)
+
+--------------------
+

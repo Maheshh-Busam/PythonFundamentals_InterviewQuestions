@@ -1,0 +1,14 @@
+- What is a list comprehension?
+- What is the basic syntax of a list comprehension?
+- How is a list comprehension different from a regular for loop?
+- What is a conditional list comprehension?
+- How do you use if-else inside a list comprehension?
+- What is a nested list comprehension?
+- What is a dictionary comprehension?
+- What is a set comprehension?
+- Does Python have tuple comprehensions?
+- What is a generator expression, and how does it differ from a list comprehension?
+- When should you avoid using comprehensions?
+- Can you use multiple for clauses in a comprehension?
+- How can you filter even numbers using a list comprehension?
+- How can you transform a list of strings using a comprehension?

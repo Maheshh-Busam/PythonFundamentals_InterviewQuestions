@@ -1,0 +1,28 @@
+
+x = 0
+
+if x:
+    print("True")
+else:
+    print("False")
+
+----------------------------
+
+x = 10
+
+if x > 5:
+    print("A")
+if x > 8:
+    print("B")
+else:
+    print("C")
+
+-----------------------------
+
+x = 7
+
+result = "Even" if x % 2 == 0 else "Odd"
+
+print(result)
+
+---------------------------------

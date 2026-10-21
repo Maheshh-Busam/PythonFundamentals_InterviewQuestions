@@ -1,0 +1,16 @@
+- What is a string in Python?
+- Are strings mutable or immutable?
+- How do you access individual characters in a string?
+- What is string slicing?
+- What is the difference between positive and negative indexing?
+- What is the difference between find() and index()?
+- What is the difference between split() and join()?
+- What is the difference between strip(), lstrip(), and rstrip()?
+- What is the difference between lower() and casefold()?
+- What is the difference between replace() and translate()?
+- What are f-strings in Python?
+- What is the difference between string concatenation and string formatting?
+- How do you check whether a string contains a substring?
+- How do you reverse a string in Python?
+- How do you check whether a string is a palindrome?
+- How do you count the occurrences of a character in a string?

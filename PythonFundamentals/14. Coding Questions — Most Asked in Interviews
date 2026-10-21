@@ -1,0 +1,113 @@
+String Coding Questions
+- Write a Python program to reverse a string without using built-in reverse methods.
+- Write a program to check whether a string is a palindrome.
+- Write a program to count vowels and consonants in a string.
+- Write a program to count the frequency of each character in a string.
+- Write a program to find the first non-repeating character in a string.
+- Write a program to find the first repeating character in a string.
+- Write a program to remove duplicate characters from a string.
+- Write a program to check whether two strings are anagrams.
+- Write a program to count the number of words in a string.
+- Write a program to find the longest word in a sentence.
+- Write a program to check whether a string contains only digits.
+- Write a program to find all duplicate characters in a string.
+
+------------------------------------------------------------------
+
+Number Coding Questions
+- Write a program to check whether a number is even or odd.
+- Write a program to check whether a number is prime.
+- Write a program to print all prime numbers within a given range.
+- Write a program to calculate the factorial of a number using a loop.
+- Write a program to calculate the factorial of a number using recursion.
+- Write a program to print the Fibonacci series up to \(n\) terms.
+- Write a program to reverse a number.
+- Write a program to check whether a number is a palindrome.
+- Write a program to check whether a number is an Armstrong number.
+- Write a program to find the sum of digits of a number.
+- Write a program to count the digits in a number.
+- Write a program to find the GCD and LCM of two numbers.
+- Write a program to swap two numbers without using a third variable.
+- Write a program to find the greatest of three numbers.
+- Write a program to print multiplication tables for a given number.
+
+--------------------------------------------------------------------
+
+List Coding Questions
+- Write a program to find the largest and smallest elements in a list.
+- Write a program to find the second-largest distinct element in a list.
+- Write a program to remove duplicates from a list without using a set.
+- Write a program to reverse a list without using reverse() or slicing.
+- Write a program to sort a list without using sort() or sorted().
+- Write a program to find the sum and average of list elements.
+- Write a program to find the frequency of each element in a list.
+- Write a program to find common elements between two lists.
+- Write a program to merge two sorted lists into one sorted list.
+- Write a program to move all zeros to the end of a list.
+- Write a program to find the missing number in a sequence from 1 to \(n\).
+- Write a program to find all duplicate elements in a list.
+- Write a program to separate even and odd numbers in a list.
+- Write a program to rotate a list to the left by \(k\) positions.
+- Write a program to flatten a nested list.
+- Write a program to find pairs of elements whose sum equals a target value.
+
+-----------------------------------------------------------------------
+
+Dictionary and Set Coding Questions
+- Write a program to count the frequency of each word in a sentence using a dictionary.
+- Write a program to count the frequency of each element in a list using a dictionary.
+- Write a program to merge two dictionaries.
+- Write a program to find the key with the maximum value in a dictionary.
+- Write a program to sort a dictionary by its values.
+- Write a program to invert a dictionary by swapping keys and values.
+- Write a program to group words that are anagrams using a dictionary.
+- Write a program to find common keys between two dictionaries.
+- Write a program to find the union and intersection of two sets.
+- Write a program to check whether two lists contain the same unique elements.
+- Write a program to remove duplicate elements while preserving the original order.
+
+-------------------------------------------------------------------------
+
+Conditions and Loop Coding Questions
+- Write a program to print a right-angled triangle pattern using stars.
+- Write a program to print a pyramid pattern using stars.
+- Write a program to print a number triangle pattern.
+- Write a program to print a multiplication table using nested loops.
+- Write a program to print all numbers divisible by both 3 and 5 within a given range.
+- Write a program to calculate the sum of all even numbers within a given range.
+- Write a program to find all factors of a number.
+- Write a program to check whether a year is a leap year.
+- Write a program to calculate the sum of the first \(n\) natural numbers.
+- Write a program to print a Fibonacci series using a loop.
+
+------------------------------------------------------------------------
+
+Function and Comprehension Coding Questions
+- Write a function to check whether a number is prime.
+- Write a recursive function to calculate factorial.
+- Write a recursive function to calculate the Fibonacci number at position \(n\).
+- Write a function that accepts *args and returns their sum.
+- Write a function that accepts **kwargs and prints each key-value pair.
+- Write a function to return the minimum and maximum values from a list.
+- Write a list comprehension to generate squares of numbers from 1 to \(n\).
+- Write a list comprehension to extract even numbers from a list.
+- Write a list comprehension to convert a list of strings to uppercase.
+- Write a dictionary comprehension to map numbers to their squares.
+- Write a set comprehension to extract unique vowels from a string.
+- Write a function to remove duplicates from a list while preserving order.
+
+-------------------------------------------------------------------------
+
+Modules, Packages, and Exceptions Coding Questions
+- Create a custom Python module containing arithmetic functions and import it into another file.
+- Create a package with two modules and demonstrate importing functions from both.
+- Write a Python program that executes specific code only when the file is run directly.
+- Write a program to handle division by zero using exception handling.
+- Write a program that handles invalid integer input using try-except.
+- Write a program using try-except-else-finally.
+- Create a custom exception for invalid age input and raise it when appropriate.
+- Write a program that handles ValueError, ZeroDivisionError, and TypeError separately.
+- Write a function that raises an exception when the input list is empty.
+- Write a program that keeps asking for valid numeric input until the user enters a valid value.
+
+-----------------------------------------------------------------------------

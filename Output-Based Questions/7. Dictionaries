@@ -1,0 +1,25 @@
+
+person = {"name": "Ravi", "age": 25}
+
+print(person["name"])
+print(person.get("city"))
+print(person.get("age"))
+
+--------------------------------------
+
+d = {"a": 1, "b": 2}
+
+d["c"] = 3
+d["a"] = 10
+
+print(d)
+
+-------------------------
+
+d = {"x": 10, "y": 20, "z": 30}
+
+for key, value in d.items():
+    print(key, value)
+
+
+------------------------------------

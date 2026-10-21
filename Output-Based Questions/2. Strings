@@ -1,0 +1,24 @@
+
+s = "Python"
+
+print(s[0])
+print(s[-1])
+print(s[1:4])
+print(s[::-1])
+
+----------------
+
+s = "python"
+
+s.upper()
+
+print(s)
+
+----------------
+
+s = "hello"
+print(s * 2)
+print("h" in s)
+print(s.find("l"))
+
+----------------
