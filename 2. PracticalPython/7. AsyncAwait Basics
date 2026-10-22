@@ -1,0 +1,23 @@
+What is asynchronous programming?
+What is the difference between synchronous and asynchronous programming?
+What is async in Python?
+What is await in Python?
+What is a coroutine?
+What is the purpose of the asyncio module?
+What is the difference between a regular function and an async function?
+What happens when you call an async function without await?
+What does asyncio.run() do?
+What is an event loop?
+What is the difference between concurrency and parallelism?
+What is the difference between threading and asyncio?
+Can you use await inside a regular function?
+Can an async function call another async function?
+What is the difference between time.sleep() and asyncio.sleep()?
+What happens when you use time.sleep() inside an async function?
+What is asyncio.gather() used for?
+How do you run multiple asynchronous tasks concurrently?
+When should you use async programming?
+When is async programming unnecessary?
+Can async programming improve CPU-bound tasks automatically?
+How do you handle exceptions in async functions?
+What happens if you forget to await a coroutine?

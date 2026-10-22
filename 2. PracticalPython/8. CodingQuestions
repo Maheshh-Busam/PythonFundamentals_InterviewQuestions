@@ -1,0 +1,92 @@
+
+Classes and OOP:
+---------------
+
+Create a Student class with name, age, and a method to display details.
+Create a BankAccount class with deposit and withdraw methods.
+Create an Employee class with instance variables and a class variable.
+Demonstrate inheritance using a Vehicle class and a Car subclass.
+Demonstrate method overriding using parent and child classes.
+Create a class that uses a class method and a static method.
+Create a class with __str__() to display object details.
+Create a class that uses super() to call a parent class constructor.
+Create a class that validates a value before assigning it to an attribute.
+Create two classes to demonstrate composition.
+
+------------------------------------
+
+Type Hints and Dataclasses:
+---------------------------
+
+Write a function that accepts two integers and returns their sum using type hints.
+Write a function that accepts a list of integers and returns the maximum value.
+Write a function that accepts a string or None and returns a string.
+Create a typed function that accepts a dictionary and returns a boolean.
+Create a dataclass named Employee with name, employee_id, and salary.
+Create a dataclass with a default value for one field.
+Create a dataclass with a list field using default_factory.
+Create a frozen dataclass and demonstrate what happens when modifying an attribute.
+Create two dataclass objects and compare their values.
+Create a dataclass for an API response with status, message, and data fields.
+
+--------------------------------------------------------------
+
+Files:
+-----
+
+Write a program to create a text file and write content into it.
+Write a program to read a file and print its contents.
+Write a program to count the number of lines in a file.
+Write a program to count the number of words in a file.
+Write a program to count the occurrences of a word in a file.
+Write a program to append new content to an existing file.
+Write a program to copy the contents of one file into another.
+Write a program to find the longest line in a file.
+Write a program to check whether a file exists before reading it.
+Write a program to handle FileNotFoundError using exception handling.
+
+-----------------------------------------------------------------
+
+JSON:
+----
+
+Write a program to convert a Python dictionary into a JSON string.
+Write a program to convert a JSON string into a Python dictionary.
+Write a program to save a dictionary to a JSON file.
+Write a program to read JSON data from a file.
+Write a program to extract a nested value from a JSON object.
+Write a program to update a value in JSON data and save it back to a file.
+Write a program to handle invalid JSON using exception handling.
+Write a program to convert a list of dictionaries into JSON.
+
+------------------------------------------------------------------
+
+CSV:
+---
+
+Write a program to read a CSV file and print every row.
+Write a program to read a CSV file using DictReader.
+Write a program to write a list of dictionaries into a CSV file.
+Write a program to create a CSV file with column headers.
+Write a program to append a new row to a CSV file.
+Write a program to count the number of rows in a CSV file.
+Write a program to filter CSV rows based on a condition.
+Write a program to calculate the total of a numeric column in a CSV file.
+Write a program to find rows containing missing values.
+
+---------------------------------------------------------------------
+
+Async / Await
+-------------
+
+Write an async function that prints a message after a delay.
+Write a program using asyncio.run() to execute an async function.
+Write two async functions and call them sequentially.
+Write a program that runs multiple async tasks concurrently using asyncio.gather().
+Write a program that demonstrates the difference between time.sleep() and asyncio.sleep().
+Write an async function that returns a value and retrieve it using await.
+Write a program that handles an exception raised inside an async function.
+Write a program that runs three asynchronous tasks with different delays.
+Write a program that demonstrates what happens when an async function is called without await.
+Write an async function that simulates fetching data from multiple APIs concurrently.
+

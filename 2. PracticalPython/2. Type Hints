@@ -1,0 +1,17 @@
+What are type hints in Python?
+Why are type hints used?
+Do type hints enforce types at runtime?
+How do you specify the return type of a function?
+How do you specify the types of function parameters?
+How do you annotate a variable with a type?
+How do you specify that a function can accept multiple types?
+What is the difference between Optional and Union?
+What is the purpose of the Any type?
+How do you specify a list, tuple, set, or dictionary type?
+What is the difference between list[int] and List[int]?
+What is the purpose of None in type annotations?
+How do you specify a function that returns no meaningful value?
+What are generic types in Python?
+What is the purpose of the Callable type?
+What is the purpose of a TypeAlias?
+How do type hints improve code readability and maintainability?

@@ -1,0 +1,18 @@
+How do you open a file in Python?
+What is the purpose of the open() function?
+What are the different file modes: r, w, a, x, rb, and wb?
+What is the difference between read(), readline(), and readlines()?
+What is the difference between write() and writelines()?
+What is the purpose of the with statement when working with files?
+Why is closing a file important?
+What happens when you open a file in write mode if it already exists?
+What is the difference between text mode and binary mode?
+How do you check whether a file exists?
+How do you read a file line by line?
+How do you append content to an existing file?
+How do you handle file-related exceptions?
+What is the difference between a relative path and an absolute path?
+What is the purpose of the pathlib module?
+How do you create a directory using Python?
+How do you rename or delete a file?
+How do you read and write files safely when exceptions occur?

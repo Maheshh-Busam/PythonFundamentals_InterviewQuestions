@@ -1,0 +1,17 @@
+What is JSON?
+Why is JSON commonly used in APIs?
+What is the difference between JSON and a Python dictionary?
+What is the purpose of the json module?
+What is the difference between json.dumps() and json.dump()?
+What is the difference between json.loads() and json.load()?
+How do you convert a Python dictionary into a JSON string?
+How do you convert a JSON string into a Python dictionary?
+How do you read JSON data from a file?
+How do you write JSON data to a file?
+What is the difference between a JSON string and a JSON file?
+How are Python None, True, and False represented in JSON?
+What happens when JSON data is invalid?
+How do you handle JSON decoding errors?
+Can JSON represent Python sets, tuples, and custom objects directly?
+How do you work with nested JSON data?
+How do you format JSON output using indentation?
