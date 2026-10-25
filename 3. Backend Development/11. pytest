@@ -1,0 +1,27 @@
+What is pytest?
+Why is pytest used in Python projects?
+What is the difference between unit testing and integration testing?
+How do you write a basic pytest test?
+What naming conventions does pytest use to discover tests?
+What is an assertion in pytest?
+What is the difference between assert and pytest.raises()?
+How do you test a function that raises an exception?
+What are pytest fixtures?
+What is the purpose of conftest.py?
+What is the difference between setup and teardown?
+What is fixture scope?
+What are function, class, module, and session fixture scopes?
+What is parameterized testing in pytest?
+What is the purpose of @pytest.mark.parametrize?
+What is mocking in testing?
+What is the purpose of unittest.mock?
+What is the difference between a mock and a stub?
+How do you test FastAPI endpoints?
+What is TestClient in FastAPI?
+How do you test an endpoint that accepts a POST request?
+How do you test HTTP status codes and response JSON?
+How do you override dependencies during FastAPI tests?
+How do you test database-dependent endpoints?
+What is the difference between unit tests and API tests?
+How do you run a specific test file or test function?
+How do you generate a test coverage report?

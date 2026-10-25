@@ -1,0 +1,12 @@
+What is JSON?
+What is the difference between JSON and a Python dictionary?
+What are the valid data types in JSON?
+What is the difference between json.dumps() and json.dump()?
+What is the difference between json.loads() and json.load()?
+How do you serialize Python objects into JSON?
+How do you deserialize JSON data into Python objects?
+How do you handle nested JSON objects?
+How are null, true, and false represented in JSON?
+How do you handle invalid JSON data?
+Why is JSON commonly used in REST APIs?
+How do you return JSON responses from a FastAPI endpoint?

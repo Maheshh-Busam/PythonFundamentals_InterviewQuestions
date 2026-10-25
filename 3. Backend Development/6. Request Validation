@@ -1,0 +1,14 @@
+What is request validation?
+Why is request validation important in backend applications?
+How does FastAPI validate request parameters?
+How does FastAPI validate request bodies?
+What happens when a request contains invalid data?
+What is the difference between path, query, and body validation?
+How do you define required and optional parameters?
+How do you set default values for query parameters?
+How do you validate string length and numeric ranges?
+How do you validate email addresses?
+How do you validate nested request objects?
+How do you customize validation error responses?
+What is the difference between request validation and business logic validation?
+How do you validate data before inserting it into a database?

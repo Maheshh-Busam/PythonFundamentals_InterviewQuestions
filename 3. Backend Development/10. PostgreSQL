@@ -1,0 +1,29 @@
+What is PostgreSQL?
+Why would you choose PostgreSQL for a backend application?
+What is the difference between PostgreSQL and MySQL?
+What is a relational database?
+What is a table, row, and column?
+What is a primary key?
+What is a foreign key?
+What are unique constraints and NOT NULL constraints?
+What is the difference between DELETE, TRUNCATE, and DROP?
+What is the difference between WHERE and HAVING?
+What are INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN?
+What is the difference between GROUP BY and ORDER BY?
+What are aggregate functions?
+What is an index in PostgreSQL?
+How do indexes improve query performance?
+What are the disadvantages of adding too many indexes?
+What is a transaction?
+What are the ACID properties?
+What is the difference between COMMIT and ROLLBACK?
+What is a database constraint?
+What is normalization?
+What is the difference between one-to-many and many-to-many relationships?
+What is the difference between VARCHAR and TEXT?
+What is the purpose of SERIAL and identity columns?
+What is the difference between JSON and JSONB in PostgreSQL?
+What is a database connection pool?
+What is a database migration?
+How do you prevent SQL injection?
+What is the purpose of EXPLAIN ANALYZE?

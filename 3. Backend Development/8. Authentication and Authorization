@@ -1,0 +1,24 @@
+What is authentication?
+What is authorization?
+What is the difference between authentication and authorization?
+What is session-based authentication?
+What is token-based authentication?
+What is JWT?
+What are the three parts of a JWT?
+What is the difference between access tokens and refresh tokens?
+How does JWT authentication work in a REST API?
+Where should JWT tokens be sent in HTTP requests?
+What is the Authorization header with the Bearer scheme?
+What is password hashing?
+Why should passwords never be stored in plain text?
+What is the difference between hashing and encryption?
+What are bcrypt and Argon2?
+What is OAuth 2.0?
+What is the difference between OAuth 2.0 and JWT?
+What is the purpose of OAuth 2.0 in API authentication?
+What is role-based access control (RBAC)?
+How do you protect a FastAPI endpoint?
+What is the purpose of OAuth2PasswordBearer in FastAPI?
+How do you handle expired or invalid tokens?
+How do you prevent unauthorized users from accessing protected resources?
+What are common API authentication security mistakes?

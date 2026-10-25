@@ -1,0 +1,20 @@
+What is an API?
+What is a REST API?
+What are the main principles of REST?
+What is the difference between REST and SOAP?
+What is a RESTful resource?
+How do you design REST API endpoints?
+What is the difference between a resource and an endpoint?
+What is the difference between path parameters and query parameters?
+What is statelessness in REST?
+What is idempotency in REST APIs?
+Which HTTP methods are considered idempotent?
+What is the difference between PUT and PATCH in REST?
+What is API versioning?
+What is pagination in REST APIs?
+What is filtering and sorting in REST APIs?
+What is the difference between request validation and business validation?
+What is CORS?
+What is rate limiting?
+What is the difference between an API and a web service?
+How do you handle errors in a REST API?

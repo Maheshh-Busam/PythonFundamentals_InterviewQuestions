@@ -8,3 +8,10 @@
 - Classes, type hints, dataclasses.
 - Files, JSON, CSV
 - async / await basics.
+
+**3. Backend Development**
+
+- HTTP, REST, JSON, status codes.
+- FastAPI routes, request validation, Pydantic.
+- Authentication basics, SQLAlchemy, PostgreSQL.
+- pytest, logging, error handling.

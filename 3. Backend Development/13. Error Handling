@@ -1,0 +1,19 @@
+What is exception handling in Python?
+What is the purpose of try, except, else, and finally?
+What is the difference between raising and catching an exception?
+What is the difference between a built-in exception and a custom exception?
+How do you create a custom exception class?
+What is exception propagation?
+Why should you avoid catching every exception with a bare except?
+How do you handle database exceptions?
+How do you handle invalid request data in FastAPI?
+What is HTTPException in FastAPI?
+How do you return appropriate HTTP status codes for errors?
+What is a global exception handler in FastAPI?
+How do you register a custom exception handler?
+What is the difference between a client error and a server error?
+How do you prevent internal error details from leaking to API clients?
+How do you log an exception before returning an error response?
+How do you handle database rollback after a failed transaction?
+How should an API respond when a requested resource does not exist?
+How do you handle unexpected errors consistently across endpoints?

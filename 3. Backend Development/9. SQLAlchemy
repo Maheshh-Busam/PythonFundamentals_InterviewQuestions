@@ -1,0 +1,30 @@
+What is SQLAlchemy?
+Why is SQLAlchemy used in Python backend applications?
+What is an ORM?
+What are the advantages of using an ORM?
+What is the difference between SQLAlchemy Core and ORM?
+What is a database model in SQLAlchemy?
+How do you define a table using SQLAlchemy models?
+What are primary keys and foreign keys?
+What is the purpose of declarative_base() in SQLAlchemy 1.4?
+What is DeclarativeBase in SQLAlchemy 2.x?
+What is the purpose of create_engine()?
+What is the difference between Engine and Session?
+What is the purpose of sessionmaker()?
+What is a database session?
+What is the difference between add(), flush(), commit(), and refresh()?
+What is the purpose of rollback()?
+How do you insert a record using SQLAlchemy?
+How do you query records from a database?
+How do you update and delete records?
+What is the difference between filter() and filter_by()?
+What is the difference between one(), first(), and all()?
+What is a relationship in SQLAlchemy?
+What is the difference between one-to-one, one-to-many, and many-to-many relationships?
+What is lazy loading?
+What is the N+1 query problem?
+How do you manage database sessions in FastAPI using Depends()?
+What is connection pooling?
+What is Alembic?
+How do you manage database schema migrations?
+What is the difference between synchronous and asynchronous SQLAlchemy?

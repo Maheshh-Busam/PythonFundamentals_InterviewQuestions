@@ -1,0 +1,188 @@
+
+HTTP and Status Codes
+---------------------
+
+from fastapi import FastAPI, HTTPException
+
+app = FastAPI()
+
+@app.get("/users/{user_id}")
+def get_user(user_id: int):
+    if user_id == 1:
+        return {"id": 1, "name": "Ravi"}
+    raise HTTPException(status_code=404, detail="User not found")
+
+# What response status and JSON body are returned for /users/1?
+# What response status and JSON body are returned for /users/5?
+
+-----------------------------------------------------------------
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/items/{item_id}")
+def get_item(item_id: int):
+    return {"item_id": item_id}
+
+# What happens when the request is /items/10?
+# What happens when the request is /items/abc?
+# Which status code is returned for invalid input?
+
+-------------------------------------------------------------------
+
+FastAPI and Pydantic
+--------------------
+
+from pydantic import BaseModel
+
+class User(BaseModel):
+    name: str
+    age: int
+
+user = User(name="Ravi", age="25")
+
+print(user.name)
+print(user.age)
+print(type(user.age))
+
+
+-----------------------------------
+
+from pydantic import BaseModel, Field, ValidationError
+
+class Product(BaseModel):
+    name: str
+    price: float = Field(gt=0)
+
+try:
+    product = Product(name="Keyboard", price=-10)
+except ValidationError:
+    print("Invalid product")
+
+# What is printed?
+
+------------------------------------------------------
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/items")
+def get_items(limit: int = 10):
+    return {"limit": limit}
+
+# What is returned by GET /items?
+# What is returned by GET /items?limit=5?
+# What happens when limit=abc is supplied?
+
+------------------------------------------------------
+
+SQLAlchemy
+-----------
+
+# Assume session is an active SQLAlchemy Session.
+# Assume Employee is a valid mapped model.
+
+employee = Employee(name="Ravi", salary=50000)
+
+session.add(employee)
+
+print(employee.id)
+
+session.flush()
+
+print(employee.id)
+
+# Why might the first ID be None?
+# Why might the ID be available after flush()?
+# Has the transaction necessarily been committed?
+
+-----------------------------------------------------
+
+# Assume session is an active SQLAlchemy Session.
+
+try:
+    employee = Employee(name="Ravi", salary=-100)
+    session.add(employee)
+    session.commit()
+except Exception:
+    session.rollback()
+    print("Transaction failed")
+
+# Under what circumstances does the except block execute?
+# Why is rollback() important?
+
+----------------------------------------------------------
+
+pytest
+------
+
+def add(a, b):
+    return a + b
+
+def test_add():
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+
+# How many assertions are executed?
+# Does pytest report a failure if both assertions pass?
+
+----------------------------------------------------------
+
+import pytest
+
+def divide(a, b):
+    return a / b
+
+def test_divide():
+    with pytest.raises(ZeroDivisionError):
+        divide(10, 0)
+
+# Does this test pass or fail?
+# What happens if divide(10, 0) does not raise an exception?
+
+-------------------------------------------------------------
+
+Logging and Error Handling
+--------------------------
+
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Error occurred")
+else:
+    print("Success")
+finally:
+    print("Finished")
+
+# What is the output?
+
+---------------------------
+
+import logging
+
+logging.basicConfig(level=logging.WARNING)
+
+logging.debug("Debug message")
+logging.info("Info message")
+logging.warning("Warning message")
+logging.error("Error message")
+
+# Which messages are displayed under the default configuration?
+
+----------------------------------------------------------------
+
+def get_user(user_id):
+    if user_id < 1:
+        raise ValueError("Invalid user ID")
+    return {"id": user_id}
+
+try:
+    print(get_user(0))
+except ValueError as error:
+    print(type(error).__name__)
+    print(error)
+
+    
+--------------------------------------------

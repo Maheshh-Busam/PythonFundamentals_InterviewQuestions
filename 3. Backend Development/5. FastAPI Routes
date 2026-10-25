@@ -1,0 +1,25 @@
+What is FastAPI?
+Why is FastAPI used for backend development?
+What are the advantages of FastAPI?
+What is the difference between FastAPI, Flask, and Django?
+How do you create a basic FastAPI application?
+What is a route or path operation in FastAPI?
+What is the difference between @app.get() and @app.post()?
+How do you define GET, POST, PUT, PATCH, and DELETE endpoints?
+What is a path parameter in FastAPI?
+What is a query parameter in FastAPI?
+What is the difference between path and query parameters?
+How do you receive a request body in FastAPI?
+How do you return a JSON response?
+What is the purpose of APIRouter?
+Why should you split routes into multiple routers?
+What is dependency injection in FastAPI?
+What is the purpose of Depends()?
+What is the difference between synchronous and asynchronous route handlers?
+What is the purpose of response_model?
+What is the purpose of status_code in a route decorator?
+What is the purpose of HTTPException?
+How do you enable CORS in FastAPI?
+How do you generate API documentation using FastAPI?
+What is the difference between Swagger UI and ReDoc?
+How do you configure environment variables in a FastAPI application?

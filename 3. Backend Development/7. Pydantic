@@ -1,0 +1,20 @@
+What is Pydantic?
+Why does FastAPI use Pydantic?
+What is a Pydantic BaseModel?
+How do you define a Pydantic model?
+What is the difference between a Pydantic model and a Python dictionary?
+What is the difference between required and optional fields in Pydantic?
+How do you define default values in a Pydantic model?
+How do you add field constraints using Field()?
+What is the difference between field validation and model validation?
+What are field_validator and model_validator?
+What is the purpose of ConfigDict?
+What is strict mode in Pydantic?
+How do you define nested Pydantic models?
+How do you validate lists and dictionaries using Pydantic?
+What is serialization in Pydantic?
+What is the difference between model_dump() and model_validate()?
+What is the purpose of model_dump_json()?
+How do you exclude fields from a serialized response?
+What is the difference between a request model and a response model?
+How do Pydantic models help protect sensitive fields in API responses?

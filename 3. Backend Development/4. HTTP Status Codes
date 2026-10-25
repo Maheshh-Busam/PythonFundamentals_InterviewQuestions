@@ -1,0 +1,22 @@
+What are HTTP status codes?
+What are the main categories of HTTP status codes?
+What is the difference between 200 and 201?
+What is the difference between 200 and 204?
+When should you return 201 Created?
+What does 202 Accepted mean?
+What does 204 No Content mean?
+What is the difference between 301 and 302?
+What does 400 Bad Request mean?
+What is the difference between 400 and 422?
+What does 401 Unauthorized mean?
+What is the difference between 401 Unauthorized and 403 Forbidden?
+What does 404 Not Found mean?
+What does 405 Method Not Allowed mean?
+What does 409 Conflict mean?
+What does 415 Unsupported Media Type mean?
+What does 422 Unprocessable Content mean?
+What does 429 Too Many Requests mean?
+What does 500 Internal Server Error mean?
+What is the difference between 500 and 502?
+What is the difference between 502 Bad Gateway and 503 Service Unavailable?
+What does 504 Gateway Timeout mean?

@@ -1,0 +1,91 @@
+
+HTTP, REST and FastAPI
+------------------------
+
+Create a FastAPI application with a GET endpoint that returns a welcome message.
+Create a POST endpoint that accepts a JSON object and returns the submitted data.
+Create CRUD endpoints for managing a list of employees.
+Create an endpoint that accepts a path parameter representing an employee ID.
+Create an endpoint that accepts query parameters for filtering and pagination.
+Create an endpoint that returns the appropriate HTTP status code when a resource is created.
+Create an endpoint that returns 404 when an employee does not exist.
+Create an endpoint that validates required fields in a request body.
+Create a FastAPI endpoint with separate request and response Pydantic models.
+Create an endpoint that handles invalid input and returns a suitable error response.
+
+--------------------------------------------------------------------------------------
+
+Pydantic
+--------
+
+Create a Pydantic model for a user with name, email, and age.
+Validate that age is within an allowed range.
+Create a model with optional fields and default values.
+Create a nested Pydantic model for an order containing multiple items.
+Validate a list of email addresses using Pydantic.
+Create a model that rejects negative product prices.
+Create a response model that excludes a sensitive field.
+Create a Pydantic model with a custom field validator.
+
+-------------------------------------------------------------------------------------
+
+Authentication
+--------------
+
+Create a password hashing function and verify a password against its hash.
+Create a FastAPI endpoint that authenticates a user with a username and password.
+Create an endpoint that generates a JWT access token after successful authentication.
+Create a dependency that validates a JWT token.
+Protect an endpoint so that only authenticated users can access it.
+Create role-based authorization for admin and regular users.
+Handle missing, invalid, and expired access tokens.
+
+------------------------------------------------------------------------------------
+
+SQLAlchemy and PostgreSQL
+--------------------------
+
+Create a SQLAlchemy model for an Employee table.
+Configure a PostgreSQL database connection using SQLAlchemy.
+Create a database session dependency for FastAPI.
+Create an endpoint that inserts an employee into PostgreSQL.
+Create an endpoint that retrieves all employees from PostgreSQL.
+Create an endpoint that retrieves an employee by ID.
+Create an endpoint that updates an employee's details.
+Create an endpoint that deletes an employee by ID.
+Implement pagination when retrieving employee records.
+Create a one-to-many relationship between customers and orders.
+Write a query to find employees whose salary is greater than a given amount.
+Write a query to find the second-highest salary in a table.
+Implement transaction rollback when a database operation fails.
+
+-----------------------------------------------------------------------------------
+
+pytest
+-------
+
+Write unit tests for a function that adds two numbers.
+Write tests for a function that raises a ValueError for invalid input.
+Write parameterized tests for a function that checks whether a number is prime.
+Write tests for a FastAPI GET endpoint using TestClient.
+Write tests for a POST endpoint with valid and invalid request bodies.
+Write tests that verify HTTP status codes and JSON response content.
+Write tests for an endpoint that returns 404 for a missing employee.
+Mock a database service when testing a FastAPI endpoint.
+Override a FastAPI dependency during testing.
+Write integration tests for CRUD operations against a test database.
+
+-----------------------------------------------------------------------------------
+
+Logging and Error Handling
+---------------------------
+
+Write a program that configures logging to both the console and a file.
+Create a custom exception for an employee who does not exist.
+Create a global exception handler in FastAPI.
+Create a function that logs an exception with its stack trace.
+Write a function that handles database errors and rolls back the transaction.
+Create consistent error responses for multiple FastAPI endpoints.
+Write a program that catches a specific exception and logs it without hiding the error.
+
+--------------------------------------------------------------------------------------
