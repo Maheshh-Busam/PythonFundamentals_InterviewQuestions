@@ -1,0 +1,20 @@
+What is structured output in an LLM?
+Why is structured output useful in backend applications?
+What is the difference between plain text output and structured JSON output?
+What is valid JSON?
+What is the difference between JSON mode and schema-constrained output?
+Does asking an LLM to return JSON guarantee valid JSON?
+What is a JSON Schema?
+How do you define the expected response structure for an LLM?
+How do you validate an LLM response using Pydantic?
+What happens when an LLM response does not match the expected schema?
+What is the difference between parsing and validation?
+What is the difference between json.loads() and Pydantic model_validate()?
+How do you handle missing fields in an LLM response?
+How do you handle invalid JSON returned by an LLM?
+What is the difference between structured output and function calling?
+How can you extract name, email, and skills from unstructured text into JSON?
+How do you handle optional fields in structured LLM responses?
+How do you validate LLM-generated data before saving it to a database?
+Why should LLM output be treated as untrusted input?
+

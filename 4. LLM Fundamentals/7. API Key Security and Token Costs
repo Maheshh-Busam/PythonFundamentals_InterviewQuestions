@@ -1,0 +1,27 @@
+Why should API keys be kept secret?
+What can happen if an API key is exposed publicly?
+Why should API keys never be hardcoded into source code?
+What are environment variables?
+How do you load API keys from environment variables in Python?
+What is a .env file?
+Why should .env files be added to .gitignore?
+What is the difference between environment variables and a secrets manager?
+How do you securely configure API keys in production?
+Why should API keys not be sent to frontend applications?
+How do you rotate a compromised API key?
+How do you avoid logging API keys or sensitive prompts?
+What is token-based pricing in LLM APIs?
+What is the difference between input-token and output-token pricing?
+What are cached input tokens?
+What factors determine the cost of an LLM API request?
+How do you calculate the cost of an LLM request?
+How do you estimate the monthly cost of an AI application?
+How can you reduce LLM API costs?
+What is the difference between token limits and spending limits?
+How do retries affect API costs?
+How can you prevent accidental excessive API usage?
+What are rate limits and usage quotas?
+How do you track token consumption per user or request?
+How do you choose between a cheaper model and a more capable model?
+What is the trade-off between response quality, latency, and cost?
+

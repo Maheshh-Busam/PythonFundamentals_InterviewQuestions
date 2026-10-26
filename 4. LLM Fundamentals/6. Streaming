@@ -1,0 +1,20 @@
+What is streaming in LLM APIs?
+Why is streaming used in AI applications?
+What is the difference between streaming and non-streaming responses?
+How does token-by-token response streaming work?
+What is Server-Sent Events (SSE)?
+How is SSE used to stream LLM responses?
+What is the difference between SSE and WebSockets?
+What is the difference between a streaming HTTP response and a normal JSON response?
+How do you implement streaming in FastAPI?
+What is StreamingResponse in FastAPI?
+What is a stream chunk?
+Does each stream chunk necessarily contain exactly one token?
+How do you detect when a stream has completed?
+How do you handle errors during a streaming response?
+How do you handle a client disconnect during streaming?
+How do you measure time to first token in a streaming API?
+Can a streaming response be returned as one complete JSON object?
+What are the challenges of validating structured JSON during streaming?
+When should you use streaming and when should you use a normal response?
+

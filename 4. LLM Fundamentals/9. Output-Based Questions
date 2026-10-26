@@ -1,0 +1,152 @@
+Tokens and Python Basics
+-------------------------
+
+prompt = "Explain Python lists"
+print(len(prompt))
+print(prompt.split())
+print(len(prompt.split()))
+
+# What do these three statements measure?
+# Is the number of words always equal to the number of LLM tokens?
+
+--------------------------------------------------------------
+
+System and User Prompts
+-----------------------
+
+messages = [
+    {"role": "system", "content": "Answer in one sentence."},
+    {"role": "user", "content": "What is Python?"},
+]
+
+print(messages[0]["role"])
+print(messages[1]["content"])
+print(len(messages))
+
+# What is the output?
+# How many messages are in the conversation?
+# Does this code itself call an LLM?
+
+---------------------------------------------------------------
+
+Temperature and Generation
+---------------------------
+
+request = {
+    "model": "example-model",
+    "temperature": 0,
+    "max_output_tokens": 100,
+}
+
+print(request["temperature"])
+print(request["max_output_tokens"])
+
+# What values are printed?
+# Does temperature = 0 guarantee identical responses for every API call?
+
+-------------------------------------------------------------------------
+
+JSON Parsing
+-------------
+
+import json
+
+response = '{"name": "Ravi", "skills": ["Python", "FastAPI"]}'
+
+data = json.loads(response)
+
+print(data["name"])
+print(data["skills"][0])
+print(type(data))
+
+# What is the output?
+# What happens if response contains invalid JSON?
+--------------------------------------
+
+import json
+
+response = '{"name": "Ravi", "active": true, "score": null}'
+
+data = json.loads(response)
+
+print(data["active"])
+print(data["score"])
+print(type(data["active"]))
+print(type(data["score"]))
+
+# What is the output?
+# How are JSON true and null represented in Python?
+
+--------------------------------------------------------------------
+
+API Key Security
+----------------
+
+import os
+
+api_key = os.getenv("LLM_API_KEY")
+
+if api_key:
+    print("API key configured")
+else:
+    print("API key missing")
+
+# What is printed when the environment variable is not set?
+# Does this code expose the actual API key?
+
+------------------------------------------------------------------
+
+Error Handling and Retries
+--------------------------
+
+attempts = 0
+
+for _ in range(3):
+    attempts += 1
+    print("Attempt", attempts)
+
+print("Finished")
+
+# What is the output?
+# Does this loop implement a real API retry?
+# What additional logic is needed for retrying transient API failures?
+
+---------------------------------------------------------------------
+
+Streaming
+---------
+
+chunks = ["Hello", " ", "world", "!"]
+
+for chunk in chunks:
+    print(chunk, end="")
+
+print()
+
+# What is the output?
+# How does this differ from receiving a real LLM stream over HTTP?
+
+----------------------------------------------------------------------
+
+Token Costs
+-----------
+
+input_tokens = 1000
+output_tokens = 500
+
+input_price_per_million = 2.00
+output_price_per_million = 8.00
+
+input_cost = input_tokens / 1_000_000 * input_price_per_million
+output_cost = output_tokens / 1_000_000 * output_price_per_million
+
+total_cost = input_cost + output_cost
+
+print(input_cost)
+print(output_cost)
+print(total_cost)
+
+# What are the three output values?
+# Why must you check the provider's current pricing before using these rates?
+
+-----------------------------------------------------------------------------------------------

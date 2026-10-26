@@ -1,0 +1,26 @@
+What is an LLM API?
+How does an application communicate with an LLM through an API?
+What is the difference between a model and a model API?
+What is an API endpoint?
+What is an API request and response?
+What are API headers and request bodies?
+How do you call an LLM API using Python?
+What is an API key?
+What is the difference between an API key and an access token?
+What are the common fields in an LLM API request?
+What are the roles of model, messages, temperature, and max output tokens?
+What is the difference between synchronous and asynchronous API calls?
+What is the difference between a chat completion API and a response-oriented API?
+How do you handle API timeouts?
+How do you handle rate-limit errors?
+What is a retry mechanism?
+What is exponential backoff?
+Which errors should be retried when calling an LLM API?
+How do you handle server errors and invalid requests?
+What is the difference between 401, 429, and 500 errors when calling an LLM API?
+How do you log API latency and token usage?
+How do you switch between different LLM providers?
+What is a model gateway?
+What are the advantages and disadvantages of using an LLM provider SDK instead of direct HTTP requests?
+How do you test code that calls an external LLM API?
+

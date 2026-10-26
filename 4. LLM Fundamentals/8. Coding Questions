@@ -1,0 +1,71 @@
+
+LLM API Integration
+--------------------
+
+Write a Python function to call an LLM API and return the generated text.
+Write a program that sends a system prompt and a user prompt to an LLM.
+Write a Python function that accepts user input and returns an LLM response.
+Write an asynchronous Python function to call an LLM API.
+Write a program that reads the API key from an environment variable.
+Write a program that handles API timeouts and connection errors.
+Write a program that handles rate-limit errors using retries and exponential backoff.
+Write a function that records the latency of an LLM API call.
+Write a function that records input tokens, output tokens, and total token usage.
+Write a program that switches between two LLM providers using a common interface.
+
+-------------------------------------------------------------------------------------
+
+Structured JSON Outputs
+-----------------------
+
+Write a program that asks an LLM to extract a person's name, email, and skills into JSON.
+Write a Python function that parses a JSON string returned by an LLM.
+Write a Pydantic model to validate structured LLM output.
+Write a program that handles invalid JSON returned by an LLM.
+Write a program that validates an LLM response before inserting it into PostgreSQL.
+Write a program that extracts job title, required skills, and experience from a job description.
+Write a program that converts unstructured text into a structured list of objects.
+Write a program that handles missing or optional fields in LLM output.
+Write a program that uses schema-constrained output when supported by the chosen model API.
+
+--------------------------------------------------------------------------------------------
+
+Streaming
+---------
+
+Write a Python program that receives and prints an LLM response as a stream.
+Write an asynchronous function that consumes streaming chunks from an LLM API.
+Create a FastAPI endpoint that streams generated text using StreamingResponse.
+Create an endpoint that streams LLM output to a client using Server-Sent Events.
+Write a program that measures time to first token.
+Write a program that handles errors occurring halfway through an LLM stream.
+Write a streaming endpoint that handles client disconnections.
+
+---------------------------------------------------------------------------------
+
+Token Usage and Cost
+--------------------
+
+Write a function to calculate the cost of an LLM request from input and output token counts.
+Write a program to calculate the estimated cost of 1,000 API requests.
+Write a function that tracks token usage for every API request.
+Write a program that rejects requests exceeding a configured token budget.
+Write a program that limits the maximum output tokens for a request.
+Write a function that estimates token counts using a model-compatible tokenizer.
+Write a program that tracks cumulative LLM usage per user.
+Write a function that compares the estimated cost of two models for the same workload.
+
+---------------------------------------------------------------------------------------------
+
+Prompting and Reliability
+-------------------------
+
+Write a function that builds a prompt from a reusable template.
+Write a program that combines trusted instructions with user-provided input.
+Write a function that asks an LLM to return a response in a specified format.
+Write a program that validates an LLM response against predefined business rules.
+Write a program that handles empty or malformed LLM responses.
+Write a program that retries transient failures but does not retry invalid requests.
+Write a program that uses a mock LLM response to unit-test application logic.
+
+----------------------------------------------------------------------------------------

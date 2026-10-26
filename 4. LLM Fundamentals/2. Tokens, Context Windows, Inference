@@ -1,0 +1,25 @@
+What is a token in an LLM?
+How does tokenization work?
+What is the difference between a token, a word, and a character?
+What is a tokenizer?
+Why do different models tokenize the same text differently?
+What is a context window?
+What happens when a request exceeds the model's context window?
+What is the difference between context length and maximum output tokens?
+Do input tokens and output tokens both count toward usage?
+What is inference in an LLM?
+What happens during LLM inference?
+What is the difference between inference and training?
+What is the difference between input tokens and generated tokens?
+What is a token budget?
+What is truncation in LLM requests?
+How can you estimate the number of tokens in a prompt?
+What factors affect LLM response latency?
+What is time to first token (TTFT)?
+What is tokens per second (TPS)?
+What is the difference between latency and throughput?
+What is batching in LLM inference?
+What is a context overflow error?
+How can you reduce token consumption without losing important context?
+What is the difference between a context window and a model's memory?
+

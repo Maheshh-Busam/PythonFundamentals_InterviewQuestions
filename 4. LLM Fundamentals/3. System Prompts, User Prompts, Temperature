@@ -1,0 +1,28 @@
+What is prompt engineering?
+What is a prompt?
+What is a system prompt?
+What is a user prompt?
+What is the difference between system and user messages?
+What is an assistant message?
+What are developer messages in an LLM conversation?
+What is the difference between instructions and context in a prompt?
+What is zero-shot prompting?
+What is few-shot prompting?
+What is chain-of-thought prompting?
+What is role-based prompting?
+What is prompt templating?
+What is temperature in an LLM?
+What happens when temperature is set to 0?
+What happens when temperature is increased?
+Does temperature = 0 guarantee identical outputs every time?
+What is top_p sampling?
+What is the difference between temperature and top_p?
+What are max output tokens?
+What is the difference between deterministic and non-deterministic output?
+How do you design prompts to produce consistent responses?
+How do you instruct an LLM to return only valid JSON?
+How do you handle ambiguous user prompts?
+What is prompt injection?
+How do you prevent user input from overriding trusted instructions?
+What is the difference between a system prompt and fine-tuning?
+
