@@ -18,10 +18,22 @@
 
 **4. LLM fundamentals**
 
--  What LLMs and transformers are.
+- What LLMs and transformers are.
 - Tokens, context windows, inference.
 - System prompts, user prompts, temperature.
 - Model APIs, structured JSON outputs, streaming.
 - API key security and token costs
 
+**5. Prompting and outputs**
 
+- System instructions, few-shot examples.
+- Structured outputs and schema validation.
+- Retries, timeouts, rate limits, fallback models.
+- Streaming responses.
+
+**6. Embeddings and vector search**
+
+- Embedding models and similarity.
+- Vector distance and nearest-neighbor search.
+- PostgreSQL + pgvector.
+- Chunking text and storing metadata.
