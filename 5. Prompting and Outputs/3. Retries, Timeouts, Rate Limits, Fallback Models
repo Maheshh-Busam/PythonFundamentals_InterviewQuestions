@@ -1,0 +1,34 @@
+What is an API timeout?
+Why do LLM API requests sometimes take a long time?
+What is the difference between connection timeout and read timeout?
+How do you configure timeouts when calling an LLM API?
+What happens when an API request exceeds its timeout?
+What is a retry mechanism?
+Why are retries important in LLM applications?
+Which API errors should be retried?
+Which API errors should not be retried?
+What is exponential backoff?
+Why is exponential backoff preferred over immediate retries?
+What is jitter in retry mechanisms?
+What is the difference between fixed delay and exponential backoff?
+What is a maximum retry limit?
+How do you prevent infinite retry loops?
+What is an HTTP 429 error?
+What is rate limiting?
+Why do LLM providers enforce rate limits?
+What is the difference between requests-per-minute and tokens-per-minute limits?
+What is a rate-limit quota?
+What is the Retry-After header?
+How do you handle rate-limit errors in Python?
+What is concurrency limiting?
+What is a fallback model?
+Why do we need fallback models in production AI applications?
+How do you switch to another model when the primary model fails?
+What is the difference between a retry and a fallback?
+How do you select a fallback model?
+What happens if both primary and fallback models fail?
+How do you maintain consistent output formats across different models?
+What is a circuit breaker pattern?
+How does a circuit breaker help in LLM applications?
+How do you monitor API failures and retry counts?
+How do retries affect LLM API costs?

@@ -1,0 +1,73 @@
+
+System Instructions and Few-Shot Examples
+----------------------------------------
+
+Write a Python function that creates an LLM prompt using system and user instructions.
+Create a reusable prompt template for answering technical interview questions.
+Write a prompt that extracts candidate skills from a resume.
+Create a few-shot prompt that classifies customer messages into positive, negative, and neutral categories.
+Write a program that sends multiple few-shot examples to an LLM.
+Create a prompt that extracts job title, experience, and required skills from a job description.
+Write a prompt that instructs an LLM to answer only using the provided context.
+Write a program that separates trusted system instructions from untrusted user input.
+Create a prompt template that accepts dynamic variables.
+Write a program that handles empty user input before sending it to an LLM.
+
+-------------------------------------------------------------------------------
+
+Structured Outputs and Schema Validation
+---------------------------------------
+
+Create a Pydantic model for extracting name, email, phone, and skills from a resume.
+Write a program that asks an LLM to return structured JSON.
+Parse an LLM-generated JSON string into a Python dictionary.
+Validate an LLM response using a Pydantic model.
+Create a Pydantic model with required and optional fields.
+Create a nested Pydantic model for an order containing multiple products.
+Write a program that handles invalid JSON returned by an LLM.
+Write a program that handles missing fields in an LLM response.
+Write a program that rejects negative salary values using Pydantic validation.
+Create a custom field validator for an email address.
+Write a program that validates LLM output against business rules.
+Write a program that retries validation when an LLM returns invalid structured output.
+Write a program that saves validated LLM output into PostgreSQL.
+
+-------------------------------------------------------------------
+
+Retries, Timeouts, Rate Limits and Fallback Models
+--------------------------------------------------
+
+Write a Python function that calls an LLM API with a configured timeout.
+Write a program that retries an API request when a timeout occurs.
+Implement exponential backoff for failed LLM API requests.
+Write a retry mechanism with a maximum of three attempts.
+Write a program that handles HTTP 429 rate-limit errors.
+Write a program that reads and respects the Retry-After header.
+Write a program that retries only temporary API failures.
+Write a program that does not retry invalid API requests.
+Create an LLM service that switches to a fallback model when the primary model fails.
+Write a function that tries two different LLM providers sequentially.
+Create a circuit breaker for repeated LLM API failures.
+Write a program that limits concurrent LLM API requests.
+Write a program that logs retry attempts and API failures.
+Write a program that tracks the success and failure rates of primary and fallback models.
+
+--------------------------------------------------------------------------------------
+
+Streaming Responses
+-------------------
+
+Write a Python program that consumes streaming responses from an LLM API.
+Write an asynchronous function that processes streaming chunks.
+Create a FastAPI endpoint that streams generated text using StreamingResponse.
+Create a FastAPI endpoint that streams LLM responses using Server-Sent Events.
+Write a program that combines streaming chunks into a complete response.
+Write a program that detects the end of an LLM stream.
+Write a program that handles exceptions during streaming.
+Write a streaming endpoint that handles client disconnections.
+Write a program that measures time to first token.
+Write a program that measures total LLM response generation time.
+Write a program that streams LLM responses to a frontend.
+
+--------------------------------------------------------------
+

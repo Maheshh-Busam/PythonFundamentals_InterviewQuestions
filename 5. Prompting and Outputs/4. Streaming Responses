@@ -1,0 +1,27 @@
+What is streaming in LLM applications?
+Why is streaming used in AI applications?
+What is the difference between streaming and non-streaming responses?
+How does an LLM generate streaming output?
+What is token-by-token generation?
+What is a stream chunk?
+Does every chunk contain exactly one token?
+What is Server-Sent Events (SSE)?
+How does SSE work?
+How do you stream LLM responses using Python?
+What is the purpose of stream=True in an API request?
+How do you consume streaming chunks?
+How do you implement streaming in FastAPI?
+What is StreamingResponse in FastAPI?
+What is the difference between StreamingResponse and a normal JSON response?
+What is the difference between SSE and WebSockets?
+How do you send streaming responses from a backend to a frontend?
+How do you detect when an LLM stream is completed?
+How do you handle errors during streaming?
+How do you handle client disconnections?
+How do you measure time to first token (TTFT)?
+How do you measure the total generation time?
+What happens when the client disconnects before generation finishes?
+Can you retry an LLM request after streaming has already started?
+How do you handle structured JSON output while streaming?
+When should you use streaming instead of a normal API response?
+What are the challenges of implementing streaming in production?

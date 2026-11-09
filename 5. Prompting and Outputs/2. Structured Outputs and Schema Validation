@@ -1,0 +1,27 @@
+What is structured output in LLM applications?
+Why do we need structured outputs instead of plain text?
+What is JSON mode?
+What is schema-constrained generation?
+What is the difference between JSON mode and structured output?
+What is JSON Schema?
+What is the purpose of defining an output schema?
+What is schema validation?
+Why should LLM-generated responses be validated?
+What is the difference between serialization and deserialization?
+What is the difference between parsing and validation?
+How do you validate LLM-generated JSON using Pydantic?
+What is a Pydantic BaseModel?
+What are required and optional fields in a schema?
+How do you define default values in a Pydantic model?
+How do you validate nested JSON objects?
+How do you validate lists of objects?
+What are field_validator and model_validator in Pydantic?
+What happens when an LLM returns missing or incorrect fields?
+How do you handle invalid JSON responses?
+How do you handle extra fields returned by an LLM?
+How do you validate data types in LLM responses?
+What is the difference between syntactic validation and semantic validation?
+How do you ensure an LLM response follows business rules?
+How do you prevent invalid LLM-generated data from entering a database?
+What is the difference between structured output and function calling?
+Can schema validation guarantee that LLM-generated information is factually correct?

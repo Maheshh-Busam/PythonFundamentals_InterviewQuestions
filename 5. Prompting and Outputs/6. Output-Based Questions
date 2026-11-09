@@ -1,0 +1,208 @@
+
+System Instructions and Few-Shot Examples
+----------------------------------------
+
+messages = [
+    {"role": "system", "content": "Answer in one sentence."},
+    {"role": "user", "content": "What is Python?"},
+    {"role": "assistant", "content": "Python is a programming language."},
+    {"role": "user", "content": "What is FastAPI?"}
+]
+
+print(len(messages))
+print(messages[0]["role"])
+print(messages[-1]["content"])
+
+--------------------------------------
+
+examples = [
+    {"input": "I love this product", "output": "Positive"},
+    {"input": "This is very bad", "output": "Negative"}
+]
+
+for example in examples:
+    print(example["input"], "->", example["output"])
+
+print(len(examples))
+
+------------------------------------------
+
+system_prompt = "You are a Python interview assistant."
+user_prompt = "Explain Python dictionaries."
+
+prompt = f"{system_prompt}\n{user_prompt}"
+
+print(prompt)
+print(len(prompt))
+
+------------------------------------------
+
+Structured Outputs and Schema Validation
+-----------------------------------------
+
+from pydantic import BaseModel
+
+class User(BaseModel):
+    name: str
+    age: int
+
+data = {
+    "name": "Ravi",
+    "age": "25"
+}
+
+user = User.model_validate(data)
+
+print(user.name)
+print(user.age)
+print(type(user.age))
+
+-----------------------------
+
+from pydantic import BaseModel, Field, ValidationError
+
+class Product(BaseModel):
+    name: str
+    price: float = Field(gt=0)
+
+try:
+    product = Product(name="Laptop", price=-500)
+    print(product)
+except ValidationError:
+    print("Validation failed")
+
+------------------------------------------------
+
+from pydantic import BaseModel
+
+class Employee(BaseModel):
+    name: str
+    age: int
+    department: str = "IT"
+
+employee = Employee(name="Ravi", age=25)
+
+print(employee.model_dump())
+print(employee.department)
+
+----------------------------------------
+
+import json
+
+response = '{"name": "Ravi", "skills": ["Python", "FastAPI"]}'
+
+data = json.loads(response)
+
+print(data["skills"])
+print(len(data["skills"]))
+print(type(data))
+
+---------------------------------------
+
+import json
+
+response = '{"name": "Ravi", "age": 25}'
+
+try:
+    data = json.loads(response)
+    print(data["name"])
+except json.JSONDecodeError:
+    print("Invalid JSON")
+
+---------------------------------------
+
+Retries and Timeouts
+--------------------
+
+attempts = 0
+max_retries = 3
+
+while attempts < max_retries:
+    attempts += 1
+    print("Attempt:", attempts)
+
+print("Request completed")
+
+----------------------------
+
+import time
+
+for attempt in range(3):
+    delay = 2 ** attempt
+
+    print("Attempt:", attempt + 1)
+    print("Retry delay:", delay)
+
+----------------------------------
+
+def call_model(primary_success, fallback_success):
+    if primary_success:
+        return "Primary model response"
+
+    if fallback_success:
+        return "Fallback model response"
+
+    return "All models failed"
+
+
+print(call_model(True, True))
+print(call_model(False, True))
+print(call_model(False, False))
+
+-------------------------------------
+
+Rate Limits
+--------------
+
+requests = 0
+max_requests = 3
+
+for i in range(5):
+    if requests < max_requests:
+        requests += 1
+        print("Request accepted")
+    else:
+        print("Rate limit exceeded")
+
+print("Total accepted:", requests)
+
+-----------------------------------
+
+Streaming Responses
+-------------------
+
+chunks = ["Hello", " ", "from", " ", "LLM", "!"]
+
+for chunk in chunks:
+    print(chunk, end="")
+
+print()
+
+---------------------
+
+chunks = ["Python", " is", " useful"]
+
+full_response = ""
+
+for chunk in chunks:
+    full_response += chunk
+
+print(full_response)
+
+------------------------------
+
+chunks = [
+    {"content": "Hello"},
+    {"content": " World"},
+    {"content": ""},
+    {"finish_reason": "stop"}
+]
+
+for chunk in chunks:
+    if "content" in chunk:
+        print(chunk["content"], end="")
+
+    if chunk.get("finish_reason") == "stop":
+        print("\nStream completed")
+
+----------------------------------------

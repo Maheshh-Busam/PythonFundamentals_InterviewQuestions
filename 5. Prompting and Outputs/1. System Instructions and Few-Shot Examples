@@ -1,0 +1,25 @@
+What is prompt engineering?
+What are system instructions in an LLM?
+What is the purpose of a system prompt?
+What is the difference between system, developer, and user instructions?
+How do system instructions influence LLM responses?
+What is the difference between a system prompt and a user prompt?
+How do you write effective system instructions?
+What are prompt templates?
+What is few-shot prompting?
+What is zero-shot prompting?
+What is the difference between zero-shot and few-shot prompting?
+Why are examples provided in few-shot prompting?
+How many examples should be included in a few-shot prompt?
+How do you select good examples for few-shot prompting?
+What is one-shot prompting?
+What is role-based prompting?
+What is instruction following in LLMs?
+What is prompt injection?
+How can user input override or manipulate an LLM's instructions?
+How do you protect system instructions from prompt injection?
+What is the difference between prompt engineering and fine-tuning?
+How do you make LLM outputs consistent and predictable?
+How do you handle ambiguous user instructions?
+What is context injection in prompt construction?
+How do you separate trusted instructions from untrusted user input?
