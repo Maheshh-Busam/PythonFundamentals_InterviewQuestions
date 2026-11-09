@@ -1,0 +1,22 @@
+What is a vector database?
+Why do we need vector databases?
+How is vector search different from traditional database search?
+What is nearest-neighbor search?
+What is the difference between nearest-neighbor search and exact nearest-neighbor search?
+What is Approximate Nearest Neighbor (ANN) search?
+Why do we use ANN instead of exact nearest-neighbor search?
+What is the difference between KNN and ANN?
+What is top-K similarity search?
+What does a similarity score represent?
+How do we retrieve the most relevant documents using embeddings?
+What is an index in vector search?
+Why are vector indexes important?
+What is HNSW?
+What is IVFFlat?
+What is the difference between HNSW and IVFFlat?
+What is the trade-off between search accuracy and search speed?
+What is recall in vector search?
+How does the number of retrieved results (K) affect search?
+What is similarity threshold filtering?
+What happens if the similarity threshold is too high or too low?
+How do we handle large-scale vector search?

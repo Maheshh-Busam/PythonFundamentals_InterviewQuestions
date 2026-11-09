@@ -1,0 +1,38 @@
+
+-- Create a table to store documents and embeddings.
+-- Include document ID, content, and embedding columns.
+
+---------------------------
+
+-- Insert multiple documents with their embeddings
+-- into a PostgreSQL table using pgvector.
+
+----------------------------
+
+-- Write a query to retrieve the 5 most similar documents
+-- using cosine distance.
+
+---------------------------
+
+-- Write a query to retrieve documents using
+-- Euclidean distance.
+
+---------------------------
+
+-- Create an HNSW index using cosine distance.
+
+----------------
+
+-- Retrieve the top 5 similar documents
+-- where category = 'technology'.
+
+--------------
+
+-- Update the embedding of an existing document.
+
+-------------------
+
+-- Write a query to retrieve documents whose
+-- cosine distance is below a specified threshold.
+
+-------------------

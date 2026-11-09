@@ -1,0 +1,22 @@
+What are embeddings in AI?
+Why do we convert text into embeddings?
+How does an embedding model work?
+What is a vector representation of text?
+What is the difference between text and its embedding?
+What is the dimensionality of an embedding?
+What does a 384-dimensional or 1536-dimensional embedding mean?
+What are popular embedding models?
+What is the difference between OpenAI embedding models and open-source embedding models?
+What is semantic similarity?
+How is semantic similarity different from keyword matching?
+What is cosine similarity?
+How does cosine similarity measure the similarity between two vectors?
+What is the difference between cosine similarity and cosine distance?
+What are dot product and Euclidean distance?
+When would you choose cosine similarity over Euclidean distance?
+Can two different sentences have similar embeddings?
+Can embeddings capture the meaning of a sentence?
+What happens when we use different embedding models for indexing and searching?
+Why should we use the same embedding model for document and query embeddings?
+What is the difference between query embeddings and document embeddings?
+What factors affect embedding quality?

@@ -1,0 +1,24 @@
+
+# Split a long text into fixed-size chunks.
+
+# Split a document into chunks with overlapping text.
+
+# Split a document into sentence-based chunks.
+
+# Create chunks from a list of paragraphs.
+
+# Generate embeddings for a list of text chunks
+# using an embedding model API.
+
+# Store document chunks, embeddings, and metadata
+# in PostgreSQL using Python.
+
+# Retrieve the top 5 similar chunks from pgvector
+# for a given user query.
+
+# Retrieve similar chunks while filtering by
+# document category and source.
+
+# Given retrieved chunks, reconstruct the original
+# document order using document_id and chunk_id.
+

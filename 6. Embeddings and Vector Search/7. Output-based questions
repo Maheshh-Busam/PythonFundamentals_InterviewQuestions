@@ -1,0 +1,107 @@
+
+Embedding and similarity
+-----------------
+
+from numpy import dot
+from numpy.linalg import norm
+
+a = [1, 0, 1]
+b = [1, 1, 0]
+
+similarity = dot(a, b) / (norm(a) * norm(b))
+
+print(round(similarity, 2))
+
+-------------
+
+from numpy import dot
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+
+print(dot(a, b))
+
+-----------------
+
+from numpy.linalg import norm
+
+a = [3, 4]
+b = [0, 0]
+
+print(norm(a))
+print(norm(b))
+
+-----------------
+
+Chunking
+-------
+
+text = "Python is easy to learn and useful for AI applications."
+
+chunk_size = 10
+
+chunks = [
+    text[i:i + chunk_size]
+    for i in range(0, len(text), chunk_size)
+]
+
+print(chunks)
+
+-----------------
+
+text = "ABCDEFGHIJ"
+
+chunk_size = 4
+overlap = 2
+
+chunks = []
+
+for i in range(0, len(text), chunk_size - overlap):
+    chunks.append(text[i:i + chunk_size])
+
+print(chunks)
+
+------------------
+
+chunks = [
+    {"chunk_id": 1, "content": "Introduction"},
+    {"chunk_id": 2, "content": "Installation"},
+    {"chunk_id": 3, "content": "Configuration"}
+]
+
+for chunk in chunks:
+    print(chunk["chunk_id"], chunk["content"])
+
+----------------------------------
+
+Metadata and retrieval
+---------------------------
+
+documents = [
+    {"id": 1, "category": "AI", "content": "Introduction to LLMs"},
+    {"id": 2, "category": "Java", "content": "Spring Boot basics"},
+    {"id": 3, "category": "AI", "content": "Introduction to RAG"}
+]
+
+results = [
+    doc for doc in documents
+    if doc["category"] == "AI"
+]
+
+print(len(results))
+print(results[0]["content"])
+
+-------------------------------
+
+chunks = [
+    {"document_id": 1, "chunk_id": 2, "content": "Second chunk"},
+    {"document_id": 1, "chunk_id": 1, "content": "First chunk"},
+    {"document_id": 1, "chunk_id": 3, "content": "Third chunk"}
+]
+
+chunks.sort(key=lambda x: x["chunk_id"])
+
+for chunk in chunks:
+    print(chunk["content"])
+
+-------------------------------------

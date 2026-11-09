@@ -1,0 +1,27 @@
+What is document chunking?
+Why do we need to split documents into chunks?
+Why should we not embed an entire large document as one vector?
+What is chunk size?
+What is chunk overlap?
+Why do we use overlapping chunks?
+How do we decide the appropriate chunk size?
+What happens when chunks are too small?
+What happens when chunks are too large?
+What is fixed-size chunking?
+What is sentence-based chunking?
+What is recursive character text splitting?
+What is semantic chunking?
+What is the difference between fixed-size and semantic chunking?
+How do we chunk PDF documents?
+How do we handle headings, paragraphs, and tables during chunking?
+What is metadata in document storage?
+What metadata should we store along with each chunk?
+Why should we store document IDs and chunk IDs?
+How do we maintain the relationship between chunks and their original documents?
+How do we store page numbers, source URLs, and document names?
+How do we retrieve the original document from a retrieved chunk?
+How do metadata filters improve vector search?
+How do we avoid duplicate chunks?
+How do we handle document updates and re-embedding?
+What happens when the embedding model changes?
+How do we handle very large documents?

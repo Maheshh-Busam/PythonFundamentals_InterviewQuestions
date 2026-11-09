@@ -1,0 +1,24 @@
+What is pgvector?
+Why do we use pgvector with PostgreSQL?
+How do we store embeddings in PostgreSQL?
+What is the VECTOR data type?
+How do we install and enable the pgvector extension?
+How do we define a vector column in a PostgreSQL table?
+How do we insert embeddings into a vector column?
+How do we perform similarity search using pgvector?
+What are the distance operators supported by pgvector?
+What is the difference between <->, <#> and <=> operators?
+How do we perform cosine similarity search in pgvector?
+How do we retrieve the top 5 most similar records?
+How do we create an HNSW index?
+How do we create an IVFFlat index?
+How do we combine vector search with SQL WHERE conditions?
+How do we filter search results using metadata?
+How do we store document text along with its embedding?
+How do we update an existing embedding?
+How do we delete embeddings from PostgreSQL?
+How do we handle different embedding dimensions?
+How do we use pgvector with Python and SQLAlchemy?
+How do we connect an embedding model to PostgreSQL?
+What are the limitations of using pgvector?
+When would you choose a dedicated vector database instead of pgvector?
